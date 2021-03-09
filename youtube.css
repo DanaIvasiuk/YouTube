@@ -1,0 +1,423 @@
+body {
+  font-family: Roboro, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #faf9f9;
+}
+
+/*маніпуляціїщодо*/
+.header-position {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  background-color: #fff;
+  top: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.rigth {
+  display: flex;
+  flex-direction: row;
+}
+
+/*класи до хедера/фото іконок*/
+.tool-lines {
+  background-image: url(header-img/tool-lines.png);
+  background-repeat: no-repeat;
+  margin: 10px 0 0 10px;
+}
+
+.logo-youtube {
+  background-image: url(header-img/logo-youtube.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  margin: 3px 0 0 -2px;
+}
+
+/*висота і шинира всіх хедівських картинок*/
+.header-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.input-field {
+  position: relative;
+  width: 575px;
+  margin-top: 5px;
+  margin-left: 70px;
+}
+
+.input-field input {
+  border: 1px solid rgb(212, 210, 210);
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.input-field input[placeholder] {
+  font-size: 16px;
+}
+
+.header-search-botton {
+  width: 65px;
+  height: 30px;
+  border: 1px solid rgb(212, 210, 210);
+  margin-top: 5px;
+}
+
+.input-field img {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+}
+
+.voice-photo {
+  background-image: url(header-img/voice.png);
+  background-repeat: no-repeat;
+  margin-left: 6px;
+  margin-top: 5px;
+}
+
+.video-photo {
+  background-image: url(header-img/video.png);
+  background-repeat: no-repeat;
+  margin: 5px 7px 0 0;
+}
+
+.dots-photo {
+  background-image: url(header-img/dots.png);
+  background-repeat: no-repeat;
+  margin: 7px -2px 0px 0px;
+}
+
+.bell-photo {
+  background-image: url(header-img/bell.png);
+  background-repeat: no-repeat;
+  margin: 7px 0px 0 0;
+}
+
+.dana-photo {
+  background-image: url(header-img/d.png);
+  background-repeat: no-repeat;
+  margin: -3px 9px 0px -1px;
+}
+
+/*aside bar*/
+
+aside {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 232px;
+  background-color: #fff;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 10px;
+}
+.scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50%;
+}
+.scroll:hover {
+  overflow: scroll;
+}
+
+aside li {
+  margin-left: 18px;
+  line-height: 35px;
+}
+aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+hr {
+  border: none;
+  background-color: rgb(225 218 218);
+  height: 1px;
+}
+
+h2 {
+  font-size: 14px;
+  color: #8d8888;
+  margin: 15px 0 0 15px;
+}
+
+.golovna-img {
+  background-image: url(aside-img/golovna.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -3px;
+  background-size: 40px 30px;
+}
+
+.popular-img {
+  background-image: url(aside-img/popular.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -3px;
+  background-size: 40px 30px;
+}
+
+.subscriptions-img {
+  background-image: url(aside-img/subscribtions.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -3px;
+  background-size: 40px 30px;
+}
+
+.library-img {
+  background-image: url(aside-img/library.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -2px 2px;
+  background-size: 40px 29px;
+}
+
+.history-img {
+  background-image: url(aside-img/history.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px 5px;
+  background-size: 40px 30px;
+}
+
+.yours-video-img {
+  background-image: url(aside-img/yours-video.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -3px;
+  background-size: 40px 30px;
+}
+
+.see-later-img {
+  background-image: url(aside-img/see-later.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px 5px;
+  background-size: 40px 30px;
+}
+
+.like-img {
+  background-image: url(aside-img/like.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px 5px;
+  background-size: 40px 30px;
+}
+
+.show-more-img {
+  background-image: url(aside-img/snow-more.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px 8px;
+  background-size: 42px 24px;
+}
+
+/*subscriptions*/
+
+.bright-side-img {
+  background-image: url(aside-img/bright-side.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+.dima-img {
+  background-image: url(aside-img/dima.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+.tv-toronto-img {
+  background-image: url(aside-img/tv-toronto.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+.odnoy-pravoy-img {
+  background-image: url(aside-img/odnoy-pravoy.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -1px;
+  background-size: 40px 30px;
+}
+
+.marina-img {
+  background-image: url(aside-img/marina.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -2px 2px;
+  background-size: 40px 30px;
+}
+
+.kasandra-img {
+  background-image: url(aside-img/kasandra.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+.oksi-img {
+  background-image: url(aside-img/oksi.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+/*more from youtube*/
+
+.premium-img {
+  background-image: url(aside-img/premium.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.movie-img {
+  background-image: url(aside-img/movie.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.games-img {
+  background-image: url(aside-img/games.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -1px 4px;
+  background-size: 40px 30px;
+}
+
+.live-img {
+  background-image: url(aside-img/live.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.sport-img {
+  background-image: url(aside-img/sport.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.settings-img {
+  background-image: url(aside-img/settings.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: 0px 2px;
+  background-size: 43px 26px;
+}
+
+.history-img {
+  background-image: url(aside-img/complaints.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.dovidka-img {
+  background-image: url(aside-img/dovidka.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.feedback-img {
+  background-image: url(aside-img/feedback.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.color-of-li-in-moreyoutubensettings {
+  color: #606060;
+}
+
+/*батя сайдбара і мейна*/
+.father-os-aside-main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 55px;
+}
+
+/*вирівнювання всередині мейна*/
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 12px 2px 0 7px;
+}
+
+.item {
+  width: 250px;
+  display: inline-block;
+}
+
+.main-title-bold {
+  font-weight: lighter;
+  font-size: 14px;
+  color: #030303;
+}
+
+p {
+  color: #606060;
+}
+
+footer p {
+  color: #606060;
+  font-family: Roboro, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 0px 0 0 19px;
+}
+
+.copy-right {
+  font-size: 12px;
+  color: #aea6a6;
+}
