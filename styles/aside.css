@@ -1,0 +1,269 @@
+/*aside bar*/
+
+.scroll {
+  position: absolute;
+  top: 55px;
+  bottom: 0;
+  width: 232px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+.scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: rgb(194, 191, 191);
+  border-radius: 0;
+}
+.scroll:hover {
+  overflow-y: auto;
+}
+
+aside li {
+  margin-left: 18px;
+  line-height: 35px;
+}
+aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+hr {
+  border: none;
+  background-color: rgb(225 218 218);
+  height: 1px;
+}
+
+h2 {
+  font-size: 14px;
+  color: #8d8888;
+  margin: 15px 0 0 15px;
+}
+
+.golovna-img {
+  background-image: url(../aside-img/golovna.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -3px;
+  background-size: 40px 30px;
+}
+
+.popular-img {
+  background-image: url(../aside-img/popular.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -3px;
+  background-size: 40px 30px;
+}
+
+.subscriptions-img {
+  background-image: url(../aside-img/subscribtions.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -3px;
+  background-size: 40px 30px;
+}
+
+.library-img {
+  background-image: url(../aside-img/library.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -2px 2px;
+  background-size: 40px 29px;
+}
+
+.history-img {
+  background-image: url(../aside-img/history.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px 5px;
+  background-size: 40px 30px;
+}
+
+.yours-video-img {
+  background-image: url(../aside-img/yours-video.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -3px;
+  background-size: 40px 30px;
+}
+
+.see-later-img {
+  background-image: url(../aside-img/see-later.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px 5px;
+  background-size: 40px 30px;
+}
+
+.like-img {
+  background-image: url(../aside-img/like.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px 5px;
+  background-size: 40px 30px;
+}
+
+.show-more-img {
+  background-image: url(../aside-img/snow-more.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px 8px;
+  background-size: 42px 24px;
+}
+
+/*subscriptions*/
+
+.bright-side-img {
+  background-image: url(../aside-img/bright-side.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+.dima-img {
+  background-image: url(../aside-img/dima.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+.tv-toronto-img {
+  background-image: url(../aside-img/tv-toronto.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+.odnoy-pravoy-img {
+  background-image: url(../aside-img/odnoy-pravoy.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -7px -1px;
+  background-size: 40px 30px;
+}
+
+.marina-img {
+  background-image: url(../aside-img/marina.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -2px 2px;
+  background-size: 40px 30px;
+}
+
+.kasandra-img {
+  background-image: url(../aside-img/kasandra.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+.oksi-img {
+  background-image: url(../aside-img/oksi.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -5px -3px;
+  background-size: 40px 30px;
+}
+
+/*more from youtube*/
+
+.premium-img {
+  background-image: url(../aside-img/premium.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.movie-img {
+  background-image: url(../aside-img/movie.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.games-img {
+  background-image: url(../aside-img/games.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -1px 4px;
+  background-size: 40px 30px;
+}
+
+.live-img {
+  background-image: url(../aside-img/live.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.sport-img {
+  background-image: url(../aside-img/sport.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.settings-img {
+  background-image: url(../aside-img/settings.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: 0px 2px;
+  background-size: 43px 26px;
+}
+
+.history-img {
+  background-image: url(../aside-img/complaints.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.dovidka-img {
+  background-image: url(../aside-img/dovidka.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.feedback-img {
+  background-image: url(../aside-img/feedback.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -3px 2px;
+  background-size: 40px 30px;
+}
+
+.color-of-li-in-moreyoutubensettings {
+  color: #606060;
+}
+
+footer p {
+  color: #606060;
+  font-family: Roboro, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 0px 0 0 19px;
+}
+
+.copy-right {
+  font-size: 12px;
+  color: #aea6a6;
+}

@@ -1,0 +1,12 @@
+body {
+  font-family: Roboro, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #faf9f9;
+}
+
+/*батя сайдбара і мейна*/
+.father-os-aside-main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 55px;
+}
