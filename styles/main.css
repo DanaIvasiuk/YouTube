@@ -1,0 +1,63 @@
+/*вирівнювання всередині мейна*/
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 28px 2px 0 239px;
+}
+
+.item {
+  position: relative;
+  width: 250px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.item:hover .dots {
+  visibility: visible;
+}
+.main-title-bold {
+  font-weight: 600;
+  font-size: 14px;
+  color: #030303;
+  margin-right: 15px;
+}
+
+/*стилі для бокових фото в діві ійтем торонто*/
+
+.try {
+  display: flex;
+}
+
+.dots {
+  position: absolute;
+  background-image: url(../main-bg-img/dots.png);
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 20px;
+  top: 141px;
+  right: -4px;
+  visibility: hidden;
+}
+
+.bg-toronto {
+  background-image: url(../main-bg-img/toronto.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -6px 7px;
+  background-size: 45px;
+}
+
+.bg-kinopoisk {
+  background-image: url(../main-bg-img/kinopoisk.png);
+  background-repeat: no-repeat;
+  padding-left: 48px;
+  background-position: -1px 7px;
+  background-size: 41px;
+}
+
+p {
+  color: #606060;
+}
